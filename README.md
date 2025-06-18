@@ -28,7 +28,7 @@ Welcome to the official repository for the **Python & AI Summer Camp**, a 5-week
 | **Day 1** (June 18) | Setup & “Hello, Python” | Install Python, write your first code, variables, print, data types, build a mini calculator |
 | **Day 2** (June 19) | Data Structures & Control Flow | Learn lists, dictionaries, tuples, sets. Use `if`, `else`, and loops to build a number guessing game. |
 
-🔗 [▶️ Open Day 1 Notebook in Google Colab](https://colab.research.google.com/github/yourusername/python-ai-summer-camp/blob/main/notebooks/day1_hello_python.ipynb)
+🔗 [▶️ Open Day 1 Notebook in Google Colab](https://colab.research.google.com/github/mhuzaifadev/beginner-python-ai-camp/blob/main/notebooks/day1_hello_python.ipynb)
 
 ---
 
@@ -89,11 +89,11 @@ By the end of this camp, you'll have:
 ---
 
 ## 📂 Repository Structure
-
+```
 python-ai-summer-camp/
 │
 ├── notebooks/
-│ ├── day1_hello_python.ipynb # ✅ Available in Colab
+│ ├── day1_hello_python.ipynb 
 │ ├── day2_data_structures.ipynb
 │ └── ...
 │
@@ -103,7 +103,7 @@ python-ai-summer-camp/
 │
 ├── README.md
 └── requirements.txt
-
+```
 
 ---
 
