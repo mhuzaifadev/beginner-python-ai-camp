@@ -90,3 +90,36 @@ By the end of this camp, you'll have:
 
 ## 📂 Repository Structure
 
+python-ai-summer-camp/
+│
+├── notebooks/
+│ ├── day1_hello_python.ipynb # ✅ Available in Colab
+│ ├── day2_data_structures.ipynb
+│ └── ...
+│
+├── slides/
+│ ├── camp_intro_slides.pdf
+│ └── ...
+│
+├── README.md
+└── requirements.txt
+
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repo  
+
+## 🧑‍🎓 Credits & License
+
+Designed by **Swift Dynamics, LLC** with a mission to make AI education fun and accessible.  
+Built by educators, developers, and AI engineers for the next generation of builders.
+
+📜 License: [MIT License](LICENSE)
+
+---
+
+> 💬 Have questions? Want to adapt this camp at your school or club?  
+> Contact: `hello@swiftdynamics.ai`
+
