@@ -1,12 +1,13 @@
 """
 File Handling & Error Management
-Date: Jun 26
+Date: Jun 26 2025
 
 This session:
 ✅ Reads and writes text files
 ✅ Handles errors gracefully
 ✅ Reads and writes CSV files
 ✅ Builds a simple to-do list app that saves to a file
+
 """
 
 import csv
