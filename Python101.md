@@ -16,7 +16,7 @@ Tell the user if it’s **positive**, **negative**, or **zero**.
 ---
 
 **3. Ask the user their city.**
-If they live in `"Karachi"` or `"Mumbai"`, print: `"That's a big city!"`
+If they live in `"Karachi"` or `"Dubai"`, print: `"That's a big city!"`
 Otherwise print: `"That's a nice place!"`
 
 ---
@@ -132,7 +132,7 @@ Print a **triangle of stars**.
 
 ---
 
-**20. Print all the **odd numbers between 10 and 50**.
+**20. Print all the **odd numbers between 10 and 50**.**
 
 ---
 
@@ -287,7 +287,8 @@ Print how many **words** are in it.
 
 ---
 
-**43. Check if a word is a **palindrome**
+**43. Check if a word is a "palindrome" by asking the user for a word.**
+A palindrome reads the same backward as forward.
 (E.g., `"madam"`, `"racecar"` → True, `'huzaifa'` → False)
 
 ---
