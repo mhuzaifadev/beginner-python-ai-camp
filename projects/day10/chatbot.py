@@ -220,7 +220,7 @@ def create_conversation_robot(smart_library, api_key):
     # Create our AI friend (updated to use gpt-4o-mini which is newer and better)
     ai_friend = ChatOpenAI(
         api_key=api_key,
-        model="gpt-4o-mini",  # Updated from gpt-3.5-turbo to newer model
+        model="gpt-4.1-nano",  # Updated from gpt-3.5-turbo to newer model
         temperature=0.1,  # Keep answers focused and consistent
         max_tokens=1000  # Limit response length
     )
