@@ -83,7 +83,7 @@
 
 ---
 
-## 🧱 Text-Based Flow Diagram
+## 🧱 Flow Diagram
 
 ```plaintext
 [ User Interface (Streamlit) ]
@@ -129,7 +129,7 @@
 
 ---
 
-## ✅ Summary
+## ✅ In a nutshell
 
 | Step | Action          | Function                                                   |
 | ---- | --------------- | ---------------------------------------------------------- |
@@ -142,5 +142,3 @@
 | 7    | Show chat       | `display_chat_history()`                                   |
 
 ---
-
-Would you like a **PDF guide** or a **graphical diagram (image)** of this flow too?
