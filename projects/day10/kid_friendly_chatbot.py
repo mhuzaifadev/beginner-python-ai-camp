@@ -169,7 +169,7 @@ def create_chat_robot(smart_library, api_key):
     # Create our AI friend
     ai_friend = ChatOpenAI(
         api_key=api_key,
-        model="gpt-4.1-nano",
+        model="gpt-4o-mini",
         temperature=0.1,
         max_tokens=1000
     )
@@ -223,7 +223,7 @@ def show_chat():
             st.markdown(f"""
             <div style="text-align: right; margin: 10px 0;">
                 <div style="background-color: #007bff; color: white; padding: 10px; border-radius: 10px; display: inline-block; max-width: 70%;">
-                    🧒: {message_text}
+                    🧒 You: {message_text}
                 </div>
             </div>
             """, unsafe_allow_html=True)
@@ -232,7 +232,7 @@ def show_chat():
             st.markdown(f"""
             <div style="text-align: left; margin: 10px 0;">
                 <div style="background-color: #f1f1f1; color: black; padding: 10px; border-radius: 10px; display: inline-block; max-width: 70%;">
-                    🤖: {message_text}
+                    🤖 Reading Buddy: {message_text}
                 </div>
             </div>
             """, unsafe_allow_html=True)
