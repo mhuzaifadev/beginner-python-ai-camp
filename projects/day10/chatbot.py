@@ -1,7 +1,5 @@
-# 🤖 Magic File Chatbot for Kids! 🤖
-# This is like having a super smart robot friend who can read your files and answer questions!
 
-# First, let's import all the tools we need (like getting crayons from your art box)
+# First, let's import all the tools we need 
 import streamlit as st  # This makes our web page look pretty
 import os  # This helps us work with files on the computer
 from PyPDF2 import PdfReader  # This reads PDF files (like digital books)
