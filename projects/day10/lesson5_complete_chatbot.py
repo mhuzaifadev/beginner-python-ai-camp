@@ -96,8 +96,8 @@ def handle_question(user_question):
     """
     💬 This takes care of answering your questions!
     """
-    # Get answer from our robot
-    response = st.session_state.conversation({
+    # Get answer from our robot (using newer syntax)
+    response = st.session_state.conversation.invoke({
         'question': user_question
     })
     
@@ -230,7 +230,7 @@ def main():
         st.header("💬 Chat with Your Reading Buddy!")
         
         # Chat input with friendly message
-        user_question = st.chat_input("Ask me anything about your file! 🤔")
+        user_question = st.chat_input("Ask me anything! 🤔")
         
         if user_question:
             handle_question(user_question)

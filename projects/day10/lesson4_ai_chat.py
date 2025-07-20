@@ -36,7 +36,7 @@ def ask_ai_question(ai_friend, question, context):
     Please answer the question based only on the information in the text above.
     """
     
-    # Ask the AI and get the answer
+    # Ask the AI and get the answer (using newer syntax)
     response = ai_friend.invoke(prompt)
     return response.content
 
